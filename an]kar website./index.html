@@ -1,0 +1,80 @@
+!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أذكار المسلم</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>أذكار المسلم</h1>
+    </header>
+
+    <main class="container">
+        <div class="card">
+            <p class="zkr-text">سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، سُبْحَانَ اللَّهِ الْعَظِيمِ</p>
+            <button class="count-btn" onclick="countUp(this)">
+                التكرار: <span class="counter">0</span>
+            </button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أذكار المسلم</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <h1>أذكار المسلم</h1>
+    </header>
+
+    <main class="container">
+
+        <!-- الذكر الأول -->
+        <div class="card" data-id="zkr1">
+            <p class="zkr-text">سُبْحَانَ اللَّهِ وَبِحَمْدِهِ، سُبْحَانَ اللَّهِ الْعَظِيمِ</p>
+            <div class="actions">
+                <button class="count-btn" onclick="countUp(this)">
+                    التكرار: <span class="counter">0</span>
+                </button>
+                <button class="reset-btn" onclick="resetCount(this)">إعادة ضبط</button>
+            </div>
+        </div>
+
+        <!-- الذكر الثاني -->
+        <div class="card" data-id="zkr2">
+            <p class="zkr-text">أَسْتَغْفِرُ اللَّهَ وَأَتُوبُ إِلَيْهِ</p>
+            <div class="actions">
+                <button class="count-btn" onclick="countUp(this)">
+                    التكرار: <span class="counter">0</span>
+                </button>
+                <button class="reset-btn" onclick="resetCount(this)">إعادة ضبط</button>
+            </div>
+        </div>
+
+        <!-- الذكر الثالث -->
+        <div class="card" data-id="zkr3">
+            <p class="zkr-text">اللَّهُمَّ صَلِّ وَسَلِّمْ عَلَى نَبِيِّنَا مُحَمَّدٍ</p>
+            <div class="actions">
+                <button class="count-btn" onclick="countUp(this)">
+                    التكرار: <span class="counter">0</span>
+                </button>
+                <button class="reset-btn" onclick="resetCount(this)">إعادة ضبط</button>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
